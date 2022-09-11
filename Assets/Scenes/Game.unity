@@ -757,28 +757,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
   m_PrefabInstance: {fileID: 1175194294}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1175194296 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-  m_PrefabInstance: {fileID: 1175194294}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1609949658 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-  m_PrefabInstance: {fileID: 509020224}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1823468725
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,36 +886,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2075206440
-MonoBehaviour:
+--- !u!54 &2075206440
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075206438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5632b5a019615314890165e5d8e9be34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _player: {fileID: 2075206438}
-  _mainCamera: {fileID: 895065961}
-  _mainCameraForward: {x: 0, y: 0, z: 0}
-  _playerMovement: {x: 0, y: 0, z: 0}
-  _horizontalAxis: 0
-  _verticalAxis: 0
---- !u!114 &2075206441
-MonoBehaviour:
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &2075206441
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075206438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f801a3d06f8c36409d10adb6c74a8e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _joystickLeft: {fileID: 1609949658}
-  _joystickRight: {fileID: 1175194296}
-  _PlayerController: {fileID: 2075206440}
+  m_Radius: 0.21796475
+  m_Height: 1.885088
+  m_Direction: 1
+  m_Center: {x: -0.0028573722, y: 0.8880608, z: -0.007865757}
