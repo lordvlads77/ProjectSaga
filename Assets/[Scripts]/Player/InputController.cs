@@ -7,9 +7,9 @@ namespace ProjectSaga
 {
     public class InputController : MonoBehaviour
     {
-        [SerializeField] private float _horizontalaxis = default;
-        [SerializeField] private float _verticalaxis = default;
-        [SerializeField] private float _moveAmount = default;
+        [SerializeField] public float _horizontalaxis = default;
+        [SerializeField] public float _verticalaxis = default;
+        [SerializeField] public float _moveAmount = default;
         [SerializeField] private float _mouseX = default;
         [SerializeField] private float _mouseY = default;
 
