@@ -47,6 +47,7 @@ namespace ProjectSaga
             _moveDirection *= _speed;
 
             Vector3 _velocityPredict = Vector3.ProjectOnPlane(_moveDirection, _normalVector);
+            rigi.velocity = _velocityPredict;
         }
 
         #region Movement
