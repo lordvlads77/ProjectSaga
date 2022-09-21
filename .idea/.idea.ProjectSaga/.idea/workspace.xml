@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/[Materials]/Models/Player1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Materials]/Models/Player1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <workItem from="1662861460142" duration="3815000" />
       <workItem from="1663047367606" duration="1806000" />
       <workItem from="1663189042230" duration="2911000" />
-      <workItem from="1663780577669" duration="309000" />
+      <workItem from="1663780577669" duration="1193000" />
     </task>
     <servers />
   </component>
