@@ -12,6 +12,10 @@ public class MobileController : MonoBehaviour
     [SerializeField] private float playerSpeed = 2.0f;
     [SerializeField] private float jumpHeight = 1.0f;
     [SerializeField] private float gravityValue = -9.81f;
+    [Header("Animation Stuff")]
+    public Animator anim = default;
+    private readonly int animator = Animator.StringToHash("Horizontal");
+    private readonly int _vertical = Animator.StringToHash("Vertical");
 
     private void Awake()
     {
@@ -49,6 +53,8 @@ public class MobileController : MonoBehaviour
         if (move != Vector3.zero)
         {
             gameObject.transform.forward = move;
+            anim.SetFloat("Horizontal", move.z );
+            anim.SetFloat("Vertical", move.x);
         }
 
         // Changes the height position of the player..
