@@ -47,7 +47,7 @@ public class MobileController : MonoBehaviour
         }
 
         Vector2 _inputMovement = _playerActions.PlayerMoves.Move.ReadValue<Vector2>();
-        Vector3 move = new Vector3(_inputMovement.x, 0f, _inputMovement.y);
+        Vector3 move = new Vector3(_inputMovement.y, 0f, _inputMovement.x);
         controller.Move(move * Time.deltaTime * playerSpeed);
 
         if (move != Vector3.zero)
