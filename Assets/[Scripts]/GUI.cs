@@ -48,7 +48,7 @@ namespace ProjectSaga
 
         public void deathScreen()
         {
-            SceneManager.LoadScene(0);
+            _deathScreen.SetActive(true);
         }
 
         public void Notpause()
@@ -75,6 +75,11 @@ namespace ProjectSaga
         {
             _saveScreen.SetActive(false);
             _loaded.SetActive(true);
+        }
+
+        public void secondwind()
+        {
+            SceneManager.LoadScene(0);
         }
     }   
 }
