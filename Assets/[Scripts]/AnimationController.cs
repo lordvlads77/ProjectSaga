@@ -10,6 +10,7 @@ namespace ProjectSaga
         public Animator _Animator = default;
         private int _vertical;
         private int _horizontal;
+        private int _ismoving;
 
         [SerializeField] private bool _rotationAllowed = default;
 
@@ -18,6 +19,7 @@ namespace ProjectSaga
             _Animator = GetComponent<Animator>();
             _vertical = Animator.StringToHash("Vertical");
             _horizontal = Animator.StringToHash("Horizontal");
+            _ismoving = Animator.StringToHash("isMoving");
         }
 
         public void refreshAnimValues(float _verticalMovement, float _horizontalMovement)
@@ -74,6 +76,14 @@ namespace ProjectSaga
             }
 
             #endregion
+            
+            #region Idle
+            
+                
+            
+            #endregion
         }
+
+       
     }
 }
