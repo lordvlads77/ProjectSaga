@@ -3467,7 +3467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0283bdd861327e44c963132e8c40f7df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 5866666020791636998}
 --- !u!1 &1401964931
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,7 +5288,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933613854}
-  m_LocalRotation: {x: 0.12667629, y: 0.000000019082345, z: -0.0000000024369116, w: 0.99194413}
+  m_LocalRotation: {x: 0.12667629, y: -0.000000019082345, z: 0.0000000024369116, w: 0.99194413}
   m_LocalPosition: {x: -0.06, y: 0.19000006, z: -2.5500002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5761,6 +5760,7 @@ MonoBehaviour:
   playerSpeed: 2
   jumpHeight: 1
   gravityValue: -9.81
+  _animator: {fileID: 5866666020791636998}
 --- !u!1 &2078304413
 GameObject:
   m_ObjectHideFlags: 0

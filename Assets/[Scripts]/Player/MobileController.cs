@@ -15,6 +15,9 @@ namespace ProjectSaga
         [SerializeField] private float playerSpeed = 2.0f;
         [SerializeField] private float jumpHeight = 1.0f;
         [SerializeField] private float gravityValue = -9.81f;
+        [Header("Animation Stuff")]
+        private readonly int _isMoving = Animator.StringToHash("isMoving");
+        [SerializeField] private Animator _animator = default;
     
         private void Awake()
         {
@@ -49,12 +52,12 @@ namespace ProjectSaga
             if (move != Vector3.zero)
             {
                 gameObject.transform.forward = move;
-                AnimationController.Instance.Moving();
+                _animator.SetBool("isMoving", true);
             }
     
             if (move == Vector3.zero)
             {
-                AnimationController.Instance.notMoving();
+                _animator.SetBool("isMoving", false);
             }
     
             // Changes the height position of the player..
