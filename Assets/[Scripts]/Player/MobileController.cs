@@ -12,13 +12,10 @@ namespace ProjectSaga
         // player velocity handles the ability to jump by setting it to 0
         private Vector3 playerVelocity;
         private bool groundedPlayer;
-        [SerializeField] private float playerSpeed = 2.0f;
-        [SerializeField] private float jumpHeight = 1.0f;
-        [SerializeField] private float gravityValue = -9.81f;
-        [Header("Animation Stuff")]
-        private readonly int _isMoving = Animator.StringToHash("isMoving");
-        [SerializeField] private Animator _animator = default;
-    
+        [SerializeField] private float playerSpeed = default;
+        [SerializeField] private float jumpHeight = default;
+        [SerializeField] private float gravityValue = default;
+
         private void Awake()
         {
             _playerActions = new PlayerActions();
@@ -52,12 +49,12 @@ namespace ProjectSaga
             if (move != Vector3.zero)
             {
                 gameObject.transform.forward = move;
-                _animator.SetBool("isMoving", true);
+                AnimationController.Instance.Moving();
             }
     
             if (move == Vector3.zero)
             {
-                _animator.SetBool("isMoving", false);
+                AnimationController.Instance.notMoving();
             }
     
             // Changes the height position of the player..
@@ -65,6 +62,12 @@ namespace ProjectSaga
             if (_playerActions.PlayerMoves.Jump.triggered && groundedPlayer)
             {
                 playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+                AnimationController.Instance.jumping();
+            }
+
+            if (!groundedPlayer)
+            {
+                AnimationController.Instance.notJumping();
             }
     
             playerVelocity.y += gravityValue * Time.deltaTime;
