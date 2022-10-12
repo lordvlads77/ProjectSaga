@@ -8,9 +8,10 @@ namespace ProjectSaga
     public class AnimationController : MonoBehaviour
     {
         public static AnimationController Instance { get; private set; }
-        [SerializeField] private Animator _animator = default;
+        [SerializeField] public Animator _animator = default;
         private readonly int _IsMoving = Animator.StringToHash("isMoving");
         private readonly int _isJumping = Animator.StringToHash("isJumping");
+        private readonly int _isInteracting = Animator.StringToHash("isInteracting");
 
         public void Awake()
         {
@@ -39,6 +40,13 @@ namespace ProjectSaga
         public void notJumping()
         {
             _animator.SetBool(_isJumping, false);
+        }
+
+        public void PlayTargetAnims(string targetAnim, bool isInteracting)
+        {
+            _animator.applyRootMotion = isInteracting;
+            _animator.SetBool(_isInteracting, isInteracting);
+            _animator.CrossFade(targetAnim, 0.2f);
         }
     }
 }

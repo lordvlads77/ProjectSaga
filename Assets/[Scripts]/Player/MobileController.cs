@@ -9,12 +9,17 @@ namespace ProjectSaga
     {
         [SerializeField] private PlayerActions _playerActions = default;
         private CharacterController controller;
+
+        private AnimationController _animationController;
         // player velocity handles the ability to jump by setting it to 0
         private Vector3 playerVelocity;
         private bool groundedPlayer;
         [SerializeField] private float playerSpeed = default;
         [SerializeField] private float jumpHeight = default;
         [SerializeField] private float gravityValue = default;
+        [Header("Rolling Stuff")]
+        public bool _rollInput = default;
+        public bool _rollFlag = default;
 
         private void Awake()
         {
@@ -72,7 +77,24 @@ namespace ProjectSaga
     
             playerVelocity.y += gravityValue * Time.deltaTime;
             controller.Move(playerVelocity * Time.deltaTime);
+            
+            if (_animationController._animator.GetBool("isInteracting"))
+                return;
+
+            if (_rollFlag)
+            {
+                
+            }
         }
+
+        private void HandleRollInput(float delta)
+        {
+            if (_rollInput)
+            {
+                _rollFlag = true;
+            }
+        }
+
     }    
 }
 
