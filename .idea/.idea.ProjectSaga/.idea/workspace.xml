@@ -3,17 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Animations]/Humanoid.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Animations]/Humanoid.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Animations]/JumpwithSkin.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Animations]/JumpwithSkin.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/SRP/PT_Lowpoly_Medieval_Modular_Armors_URP_7.3.1.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/SRP/PT_Lowpoly_Medieval_Weapons_URP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/ScreenShotTaker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,7 +38,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\New Unity LTS\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -85,6 +86,8 @@
       <workItem from="1665421651241" duration="4818000" />
       <workItem from="1665449422478" duration="986000" />
       <workItem from="1665470584238" duration="3397000" />
+      <workItem from="1666028173252" duration="1166000" />
+      <workItem from="1666029918723" duration="206000" />
     </task>
     <servers />
   </component>
@@ -94,6 +97,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
