@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: weapon_GrandSword
   _displayName: Grand Sword
-  _icon: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 7dbdc7dd7da16e54bb155803bb487dbf, type: 3}
   _prefab: {fileID: 106878, guid: d9997adaf286f9b45a050f836bce2f10, type: 3}

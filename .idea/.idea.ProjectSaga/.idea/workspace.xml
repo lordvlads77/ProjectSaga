@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Icons/weapon_broadsword_Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Icons/weapon_broadsword_Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Halberd_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Halberd_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Rapier_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Rapier_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Zweihander_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Zweihander_01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/SRP/PT_Lowpoly_Medieval_Modular_Armors_URP_7.3.1.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/SRP/PT_Lowpoly_Medieval_Weapons_URP.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IconCreator.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IconCreator.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_GrandSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_GrandSword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_Halberd.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_Halberd.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_broadsword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_broadsword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_rapier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_rapier.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventorySystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/ItemObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/ScreenShotTaker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -88,6 +98,7 @@
       <workItem from="1665470584238" duration="3397000" />
       <workItem from="1666028173252" duration="1166000" />
       <workItem from="1666029918723" duration="206000" />
+      <workItem from="1666197700919" duration="6035000" />
     </task>
     <servers />
   </component>

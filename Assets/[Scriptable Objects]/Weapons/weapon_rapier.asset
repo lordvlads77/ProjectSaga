@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: weapon_rapier
   _displayName: Rapier
-  _icon: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 6dd7b722b174e974f98251fe4d6d61b5, type: 3}
   _prefab: {fileID: 129084, guid: 47acc5b26852c45438ce84bf1364dea1, type: 3}
