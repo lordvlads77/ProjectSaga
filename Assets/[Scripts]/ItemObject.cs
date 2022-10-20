@@ -4,14 +4,18 @@ using UnityEngine;
 
 namespace ProjectSaga
 {
-    public class ItemObject : MonoBehaviour
+    public enum ItemType
     {
-        public inventoryItemData referenceItem;
+        Food,
+        Equipment,
+        Default
+    }
+    public abstract class ItemObject : ScriptableObject
+    {
+        public GameObject prefab = default;
+        public ItemType type = default;
+        [TextArea(15,20)]
+        public string description;
 
-        public void OnHandlePickupItem()
-        {
-            //InventorySystem.current.Add(referenceItem);
-            Destroy(gameObject);
-        }
     }    
 }
