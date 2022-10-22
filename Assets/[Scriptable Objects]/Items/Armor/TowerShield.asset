@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a31e816ea69bdd4fa7bca1cec9da292, type: 3}
   m_Name: TowerShield
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6454020232461607194, guid: b7f0edf49b0582c428fe30ccbd831a2b, type: 3}
+  prefab: {fileID: 974910424945340231, guid: bcad2b440b4c4dc4382b79dc42053a72, type: 3}
   type: 2
   description: A Tower Shield to Tower in front of your enemies juas juas juas
   _statDefence: 15

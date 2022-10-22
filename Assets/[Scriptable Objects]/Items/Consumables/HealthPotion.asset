@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801c31a041fa5464594ce08cb4fdc9e4, type: 3}
   m_Name: HealthPotion
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6996940811732667081, guid: 340c7efc2075e814286647834c3d9bde, type: 3}
+  prefab: {fileID: 5934216288148392561, guid: d335f086bed000247b25c38626f81be7, type: 3}
   type: 0
   description: Drink this to restore 16 points of HP
   _restoreAmountHP: 16

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a31e816ea69bdd4fa7bca1cec9da292, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  prefab: {fileID: 106904, guid: 72e068cb4d9875a4d912ca446ea74cd8, type: 3}
+  prefab: {fileID: 3035067234157149064, guid: 66adde110b360ee45828b9d1661ba71a, type: 3}
   type: 2
   description: For protecting yourself against the evil that lurks in the darkness
   _statDefence: 10

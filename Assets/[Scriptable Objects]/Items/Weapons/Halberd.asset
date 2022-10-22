@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306e83422be9396489ee49db97928117, type: 3}
   m_Name: Halberd
   m_EditorClassIdentifier: 
-  prefab: {fileID: 191440, guid: 316022a1c585a7b45b3cc2f855960c93, type: 3}
+  prefab: {fileID: 802928354785838555, guid: 102060d97c2b34e459e905e1b540e99c, type: 3}
   type: 1
   description: A Halberd to show your Migth!
   _attckStat: 15

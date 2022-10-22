@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306e83422be9396489ee49db97928117, type: 3}
   m_Name: BroadSword
   m_EditorClassIdentifier: 
-  prefab: {fileID: 131468, guid: f61def225eac3e247985f6679965a655, type: 3}
+  prefab: {fileID: 8542795598999727996, guid: 8091116139d747542a88f2f6e19f6cda, type: 3}
   type: 1
   description: Broadsword for Slicing trough your enemies.
   _attckStat: 10
