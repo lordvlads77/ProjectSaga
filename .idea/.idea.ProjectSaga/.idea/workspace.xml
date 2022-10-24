@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.024.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.024.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Armor/TowerShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Armor/TowerShield.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Weapons/BroadSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Weapons/BroadSword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/SRP/PT_Lowpoly_Medieval_Modular_Armors_URP_7.3.1.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/SRP/PT_Lowpoly_Medieval_Weapons_URP.unitypackage.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ArmorObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventorySys/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventorySys/WeaponsObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/Player/InventoryS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ItemDataBaseObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,7 +36,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\New Unity LTS\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -105,6 +91,7 @@
       <workItem from="1666294319666" duration="1694000" />
       <workItem from="1666317529287" duration="10728000" />
       <workItem from="1666588728753" duration="5805000" />
+      <workItem from="1666631117840" duration="3141000" />
     </task>
     <servers />
   </component>
