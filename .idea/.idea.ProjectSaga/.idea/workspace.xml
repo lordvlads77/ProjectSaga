@@ -3,35 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Scripts/PT_Create_Prefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Scripts/PT_Create_Prefab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.024.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AGWYN's Low Poly Magical Potions Pack/Models/HandlePotion.024.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Bones.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Bones.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/item_healthPotion.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/item_healthPotion.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_GrandSword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_GrandSword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_Halberd.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_Halberd.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_broadsword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_broadsword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_rapier.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Weapons/weapon_rapier.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/DefaultObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/DefaultObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/GUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/GUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/ItemObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/ItemObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Moricion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Moricion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant 5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Prefabs]/InventoryySlot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Armor/TowerShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Armor/TowerShield.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Weapons/BroadSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/Weapons/BroadSword.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +104,7 @@
       <workItem from="1666294158391" duration="133000" />
       <workItem from="1666294319666" duration="1694000" />
       <workItem from="1666317529287" duration="10728000" />
+      <workItem from="1666588728753" duration="5805000" />
     </task>
     <servers />
   </component>
