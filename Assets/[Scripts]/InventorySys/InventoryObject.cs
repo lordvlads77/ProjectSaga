@@ -11,19 +11,19 @@ namespace ProjectSaga
     public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
     {
         public string _savePath = default;
-        private ItemDataBaseObject databaseObject;
+        public ItemDataBaseObject databaseObject;
         public List<InventorySlot> _Container = new List<InventorySlot>();
 
         private void OnEnable()
         {
-#if UNITY_EDITOR
+         #if UNITY_EDITOR
             
             databaseObject =
                 (ItemDataBaseObject) AssetDatabase.LoadAssetAtPath(
                     "Assets/Resources/ItemsDataBase.asset", typeof(ItemDataBaseObject));
-#else
-            databaseObject = Resources.Load<ItemDataBaseObject>("ItemDataBase");
-#endif
+         #else
+            databaseObject = Resources.Load<ItemDataBaseObject>("Assests/Resources/ItemDataBase.asset");
+         #endif
         }
 
         public void AddItem(ItemObject _item, int _amount)
@@ -40,7 +40,7 @@ namespace ProjectSaga
             
         }
 
-        public void Save()
+       public void Save()
         {
             string _saveData = JsonUtility.ToJson(this, true);
             BinaryFormatter binaryFormatter = new BinaryFormatter();

@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/SRP/PT_Lowpoly_Medieval_Modular_Armors_URP_7.3.1.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/SRP/PT_Lowpoly_Medieval_Weapons_URP.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Materials]/Fonts/Title_BloodBlocksSDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Materials]/Fonts/Title_BloodBlocksSDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/ItemsDataBase.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/ItemsDataBase.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/PlayerInventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/PlayerInventory.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/InventoryS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/InventoryS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\New Unity LTS\2021.3.8f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -105,6 +99,7 @@
       <workItem from="1666801868813" duration="5962000" />
       <workItem from="1667196680809" duration="1665000" />
       <workItem from="1667199216319" duration="5652000" />
+      <workItem from="1667239694508" duration="3862000" />
     </task>
     <servers />
   </component>
