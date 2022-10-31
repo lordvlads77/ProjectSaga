@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace ProjectSaga
 {
     public class MobileController : MonoBehaviour
     {
-        [SerializeField] private PlayerActions _playerActions = default;
+        public PlayerActions _playerActions = default;
         private CharacterController controller;
         // player velocity handles the ability to jump by setting it to 0
         private Vector3 playerVelocity;
@@ -12,6 +13,7 @@ namespace ProjectSaga
         [SerializeField] private float playerSpeed = default;
         [SerializeField] private float jumpHeight = default;
         [SerializeField] private float gravityValue = default;
+        [SerializeField] public InventoryObject _Inventory = default;
 
         private void Awake()
         {
@@ -69,6 +71,18 @@ namespace ProjectSaga
     
             playerVelocity.y += gravityValue * Time.deltaTime;
             controller.Move(playerVelocity * Time.deltaTime);
+
+            if (_playerActions.InventoryActions.saveInventory.triggered)
+            {
+                _Inventory.Save();
+                Debug.Log("Saved!");
+            }
+
+            if (_playerActions.InventoryActions.loadInventory.triggered)
+            {
+                _Inventory.Load();
+                Debug.Log("Loaded!");
+            }
         }
     }    
 }

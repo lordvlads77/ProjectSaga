@@ -134,6 +134,76 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "InventoryActions",
+            "id": "ea17b4fe-689c-409f-9fdb-6fc0248de20f",
+            "actions": [
+                {
+                    "name": "saveInventory",
+                    "type": "Button",
+                    "id": "2dc8afa3-4433-4c60-991f-80699b7e750c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "loadInventory",
+                    "type": "Button",
+                    "id": "711ab4f3-d5d9-4161-8aab-fed0baba4852",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e598ade7-75a0-493f-9e83-3212888730d8",
+                    "path": "<Keyboard>/leftAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "saveInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa89aa0a-ede6-4956-9f77-c6b83649c3b4",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "saveInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c2c1885-6f05-4dd7-b8a8-af5ecd079853",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "loadInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a0b3c30-81c7-4ec7-bb59-792ede1c0ed4",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "loadInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

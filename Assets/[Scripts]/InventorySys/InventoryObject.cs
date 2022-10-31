@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using UnityEditor;
 using UnityEngine;
 
 namespace ProjectSaga
@@ -9,8 +11,20 @@ namespace ProjectSaga
     public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
     {
         public string _savePath = default;
-        public ItemDataBaseObject databaseObject;
+        private ItemDataBaseObject databaseObject;
         public List<InventorySlot> _Container = new List<InventorySlot>();
+
+        private void OnEnable()
+        {
+#if UNITY_EDITOR
+            
+            databaseObject =
+                (ItemDataBaseObject) AssetDatabase.LoadAssetAtPath(
+                    "Assets/Resources/ItemsDataBase.asset", typeof(ItemDataBaseObject));
+#else
+            databaseObject = Resources.Load<ItemDataBaseObject>("ItemDataBase");
+#endif
+        }
 
         public void AddItem(ItemObject _item, int _amount)
         {
@@ -37,7 +51,14 @@ namespace ProjectSaga
 
         public void Load()
         {
-            //Write the load function to be explained on 14:45
+            if (File.Exists(string.Concat(Application.persistentDataPath, _savePath)))
+            {
+                BinaryFormatter binaryFormatter = new BinaryFormatter();
+                FileStream fileStream =
+                    File.Open(string.Concat(Application.persistentDataPath, _savePath), FileMode.Open);
+                JsonUtility.FromJsonOverwrite(binaryFormatter.Deserialize(fileStream).ToString(), this);
+                fileStream.Close();
+            }
         }
 
         public void OnBeforeSerialize()

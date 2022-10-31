@@ -6,6 +6,7 @@ namespace ProjectSaga
     public class InventoryS : MonoBehaviour
     {
         [SerializeField] public InventoryObject _inventory = default;
+        
 
         public void OnTriggerEnter(Collider other)
         {
