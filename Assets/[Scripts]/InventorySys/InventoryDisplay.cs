@@ -4,8 +4,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace ProjectSaga
-{
+
+
     public class InventoryDisplay : MonoBehaviour
     {
         [SerializeField] private int _xStart = default;
@@ -68,4 +68,3 @@ namespace ProjectSaga
             }
         }
     }   
-}

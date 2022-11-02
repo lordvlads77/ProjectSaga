@@ -1,7 +1,5 @@
 using UnityEngine;
 
-namespace ProjectSaga
-{
     public enum ItemType
     {
         Consumable,
@@ -17,4 +15,3 @@ namespace ProjectSaga
         public string description;
 
     }    
-}

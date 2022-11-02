@@ -3,12 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Characters/SRP/PT_Lowpoly_Medieval_Modular_Armors_URP_7.3.1.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/SRP/PT_Lowpoly_Medieval_Weapons_URP.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/PlayerInventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scriptable Objects]/Items/PlayerInventory.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ArmorObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ArmorObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ConsumableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ConsumableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/DefaultObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/DefaultObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/InventoryObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ItemDataBaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ItemDataBaseObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ItemObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/InventorySys/ItemObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/InventoryS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/InventoryS.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EbPeWJNQzQr4ST5k1zHNEhMZin" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,6 +48,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../pcProjectSaga\ProjectSaga.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\AMK24\Documents\pcProjectSaga" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\lipsh\Documents\Uni\4to Semestre\Proyecto Semestral 3D\ProjectSaga&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -100,6 +117,7 @@
       <workItem from="1667196680809" duration="1665000" />
       <workItem from="1667199216319" duration="5652000" />
       <workItem from="1667239694508" duration="3862000" />
+      <workItem from="1667411771662" duration="3662000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectSaga
-{
     [CreateAssetMenu(fileName = "New Item Database", menuName = "Inventory System/Items/Database")]
     public class ItemDataBaseObject : ScriptableObject, ISerializationCallbackReceiver
     {
@@ -24,5 +22,5 @@ namespace ProjectSaga
             }
         }
     }    
-}
+
 

@@ -1,11 +1,10 @@
 using System;
 using UnityEngine;
 
-namespace ProjectSaga
-{
     public class InventoryS : MonoBehaviour
     {
         [SerializeField] public InventoryObject _inventory = default;
+        public GameObject _text = default;
 
 
         public void OnTriggerEnter(Collider other)
@@ -13,6 +12,7 @@ namespace ProjectSaga
             var _itemm = other.GetComponent<Item>();
             if (_itemm)
             {
+                _text.SetActive(true);   
                 _inventory.AddItem(_itemm._itemm, 1);
                 Destroy(other.gameObject);
             }
@@ -23,5 +23,5 @@ namespace ProjectSaga
             _inventory._Container.Clear();
         }
     }    
-}
+
 

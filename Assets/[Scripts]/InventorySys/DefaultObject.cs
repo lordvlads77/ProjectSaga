@@ -1,7 +1,6 @@
 using UnityEngine;
 
-namespace ProjectSaga
-{
+
     [CreateAssetMenu(fileName = "New Default Object", menuName = "Inventory System/Items/Default")]
     public class DefaultObject : ItemObject
     {
@@ -9,5 +8,5 @@ namespace ProjectSaga
         {
             type = ItemType.Default;
         }
-    }   
+       
 }

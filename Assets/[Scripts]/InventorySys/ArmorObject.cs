@@ -3,8 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectSaga
-{
+
     [CreateAssetMenu (fileName = "New Armor Object", menuName = "Inventory System/Items/Armor")]
     public class ArmorObject : ItemObject
     {
@@ -15,5 +14,5 @@ namespace ProjectSaga
             type = ItemType.Armor;
         }
     }    
-}
+
 
