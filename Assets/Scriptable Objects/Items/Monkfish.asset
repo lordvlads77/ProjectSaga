@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ba1bb662c8f5346828058f078ad1fa, type: 3}
   m_Name: Monkfish
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 3646272421532504529, guid: 2bd73c08464e1df4fa2d75911271d2dc, type: 3}
   type: 0
   description: A tasty fish!
   restoreHealthValue: 16
