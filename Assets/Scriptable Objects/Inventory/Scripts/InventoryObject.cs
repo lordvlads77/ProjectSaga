@@ -11,29 +11,23 @@ using UnityEngine.Rendering;
 public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
 {
     public string savePath;
-    private ItemDatabaseObject database;
-    public List<InventorySlot> Container = new List<InventorySlot>();
+    public ItemDatabaseObject database;
+    public Inventory Container;
+    
 
-    private void OnEnable()
-    {
-#if UNITY_EDITOR
-        database = (ItemDatabaseObject) AssetDatabase.LoadAssetAtPath("Assets/Resources/Database.asset", typeof(ItemDatabaseObject));  
-#else
-        database = Resources.Load<ItemDatabaseObject>("Database");
-#endif
-    }
+    
 
     public void AddItem(ItemObject _item, int _amount)
     {
-        for (int i = 0; i < Container.Count; i++)
+        for (int i = 0; i < Container.Items.Count; i++)
         {
-            if (Container[i].item == _item)
+            if (Container.Items[i].item == _item)
             {
-                Container[i].AddAmount(_amount);
+                Container.Items[i].AddAmount(_amount);
                 return;
             }
         }
-        Container.Add(new InventorySlot(database.GetId[_item],_item, _amount));
+        Container.Items.Add(new InventorySlot(database.GetId[_item],_item, _amount));
         
     }
 
@@ -59,8 +53,8 @@ public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
     
     public void OnAfterDeserialize()
     {
-        for (int i = 0; i < Container.Count; i++)
-            Container[i].item = database.GetItem[Container[i].ID];
+        for (int i = 0; i < Container.Items.Count; i++)
+            Container.Items[i].item = database.GetItem[Container.Items[i].ID];
     }
     
     public void OnBeforeSerialize()
@@ -68,6 +62,13 @@ public class InventoryObject : ScriptableObject, ISerializationCallbackReceiver
         
     }
 }
+
+[System.Serializable]
+public class Inventory
+{
+    public List<InventorySlot> Items = new List<InventorySlot>();
+}
+
 
 [System.Serializable]
 public class InventorySlot
