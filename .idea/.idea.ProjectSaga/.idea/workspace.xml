@@ -4,16 +4,10 @@
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Bones.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Bones.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Monkfish.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Monkfish.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Shield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Shield.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Sword 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Sword 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Sword 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Sword 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Sword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/PlayerActions.inputactions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +93,7 @@
       <workItem from="1665470584238" duration="3397000" />
       <workItem from="1667614467104" duration="1077000" />
       <workItem from="1667617137522" duration="3046000" />
+      <workItem from="1667622678264" duration="6986000" />
     </task>
     <servers />
   </component>

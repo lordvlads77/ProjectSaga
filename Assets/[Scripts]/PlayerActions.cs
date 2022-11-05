@@ -156,6 +156,76 @@ public partial class @PlayerActions : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""PlayerInventory"",
+            ""id"": ""15190057-acc7-4b6e-84d1-8a48d4ea2d09"",
+            ""actions"": [
+                {
+                    ""name"": ""SaveInventory"",
+                    ""type"": ""Button"",
+                    ""id"": ""5a92bb6b-a395-4a57-b61f-63bcd6dac50d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LoadInventory"",
+                    ""type"": ""Button"",
+                    ""id"": ""0c9750af-3687-430a-8fc6-94f77c436f4b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""2cdb6286-68dc-4d7c-8147-c2fa32ea6237"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SaveInventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a569c06c-ff04-4f4c-a6e2-38aa76b28b38"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SaveInventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""168f0dc4-5552-49ff-ac10-2dae19982462"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LoadInventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0d19fefa-0107-4cd5-928b-0c91c17a5dd3"",
+                    ""path"": ""<Keyboard>/home"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LoadInventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -165,6 +235,10 @@ public partial class @PlayerActions : IInputActionCollection2, IDisposable
         m_PlayerMoves_Move = m_PlayerMoves.FindAction("Move", throwIfNotFound: true);
         m_PlayerMoves_Jump = m_PlayerMoves.FindAction("Jump", throwIfNotFound: true);
         m_PlayerMoves_CameraLook = m_PlayerMoves.FindAction("CameraLook", throwIfNotFound: true);
+        // PlayerInventory
+        m_PlayerInventory = asset.FindActionMap("PlayerInventory", throwIfNotFound: true);
+        m_PlayerInventory_SaveInventory = m_PlayerInventory.FindAction("SaveInventory", throwIfNotFound: true);
+        m_PlayerInventory_LoadInventory = m_PlayerInventory.FindAction("LoadInventory", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -269,10 +343,56 @@ public partial class @PlayerActions : IInputActionCollection2, IDisposable
         }
     }
     public PlayerMovesActions @PlayerMoves => new PlayerMovesActions(this);
+
+    // PlayerInventory
+    private readonly InputActionMap m_PlayerInventory;
+    private IPlayerInventoryActions m_PlayerInventoryActionsCallbackInterface;
+    private readonly InputAction m_PlayerInventory_SaveInventory;
+    private readonly InputAction m_PlayerInventory_LoadInventory;
+    public struct PlayerInventoryActions
+    {
+        private @PlayerActions m_Wrapper;
+        public PlayerInventoryActions(@PlayerActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @SaveInventory => m_Wrapper.m_PlayerInventory_SaveInventory;
+        public InputAction @LoadInventory => m_Wrapper.m_PlayerInventory_LoadInventory;
+        public InputActionMap Get() { return m_Wrapper.m_PlayerInventory; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(PlayerInventoryActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerInventoryActions instance)
+        {
+            if (m_Wrapper.m_PlayerInventoryActionsCallbackInterface != null)
+            {
+                @SaveInventory.started -= m_Wrapper.m_PlayerInventoryActionsCallbackInterface.OnSaveInventory;
+                @SaveInventory.performed -= m_Wrapper.m_PlayerInventoryActionsCallbackInterface.OnSaveInventory;
+                @SaveInventory.canceled -= m_Wrapper.m_PlayerInventoryActionsCallbackInterface.OnSaveInventory;
+                @LoadInventory.started -= m_Wrapper.m_PlayerInventoryActionsCallbackInterface.OnLoadInventory;
+                @LoadInventory.performed -= m_Wrapper.m_PlayerInventoryActionsCallbackInterface.OnLoadInventory;
+                @LoadInventory.canceled -= m_Wrapper.m_PlayerInventoryActionsCallbackInterface.OnLoadInventory;
+            }
+            m_Wrapper.m_PlayerInventoryActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @SaveInventory.started += instance.OnSaveInventory;
+                @SaveInventory.performed += instance.OnSaveInventory;
+                @SaveInventory.canceled += instance.OnSaveInventory;
+                @LoadInventory.started += instance.OnLoadInventory;
+                @LoadInventory.performed += instance.OnLoadInventory;
+                @LoadInventory.canceled += instance.OnLoadInventory;
+            }
+        }
+    }
+    public PlayerInventoryActions @PlayerInventory => new PlayerInventoryActions(this);
     public interface IPlayerMovesActions
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnCameraLook(InputAction.CallbackContext context);
+    }
+    public interface IPlayerInventoryActions
+    {
+        void OnSaveInventory(InputAction.CallbackContext context);
+        void OnLoadInventory(InputAction.CallbackContext context);
     }
 }

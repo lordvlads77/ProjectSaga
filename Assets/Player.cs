@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ProjectSaga;
 
 public class Player : MonoBehaviour
 {
+    public PlayerActions _playerActions;
     public InventoryObject inventory;
 
     public void OnTriggerEnter(Collider other)
@@ -16,6 +18,7 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+    
 
     private void OnApplicationQuit()
     {
