@@ -18,7 +18,7 @@ public class InventoryObject : ScriptableObject
 
     
 
-    public void AddItem(ItemObject _item, int _amount)
+    public void AddItem(Item _item, int _amount)
     {
         for (int i = 0; i < Container.Items.Count; i++)
         {
@@ -28,7 +28,7 @@ public class InventoryObject : ScriptableObject
                 return;
             }
         }
-        Container.Items.Add(new InventorySlot(database.GetId[_item],_item, _amount));
+        Container.Items.Add(new InventorySlot(_item.Id,_item, _amount));
         
     }
     
@@ -84,9 +84,9 @@ public class Inventory
 public class InventorySlot
 {
     public int ID;
-    public ItemObject item;
+    public Item item;
     public int amount;
-    public InventorySlot(int _id, ItemObject _item, int _amount)
+    public InventorySlot(int _id, Item _item, int _amount)
     {
         ID = _id;
         item = _item;
