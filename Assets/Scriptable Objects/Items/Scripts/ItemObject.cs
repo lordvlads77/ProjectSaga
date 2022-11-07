@@ -9,6 +9,14 @@ public enum ItemType
     Default
 }
 
+/*public enum Attributes
+{
+    Agility,
+    Intellect,
+    Stamina,
+    Strength
+}*/
+
 public abstract class ItemObject : ScriptableObject
 {
     public int Id;
@@ -31,3 +39,22 @@ public class Item
         Id = item.Id;
     }
 }
+
+/*public class ItemBuf
+{
+    public Attributes attributes;
+    public int value;
+    public int min;
+    public int max;
+
+    public ItemBuff(int _min, int _max)
+    {
+        min = _min;
+        max = _max;
+    }
+
+    public void GenerateValue()
+    {
+        value = UnityEngine.Random.Range(min, max);
+    }
+}*/
