@@ -4,74 +4,26 @@
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DisplayInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DisplayInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Halberd_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Halberd_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Shield_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Shield_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Shield_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Shield_04.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Zweihander_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Prefabs/Weapons/SM_Wep_Zweihander_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Flowers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Flowers/PT_Poppy_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Flowers/PT_Poppy_02.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Generic_Tree_01_green.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Generic_Tree_01_green.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_02_anim.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_02_anim.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_02_anim_ctrl.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_02_anim_ctrl.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_03_anim.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_03_anim.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_03_anim_ctrl.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_03_anim_ctrl.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_04_anim.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_04_anim.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_04_anim_ctrl.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Bow_04_anim_ctrl.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Crossbow_02_anim.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Crossbow_02_anim.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Crossbow_02_anim_ctrl.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Crossbow_02_anim_ctrl.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Longbow_02_anim.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Longbow_02_anim.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Longbow_02_anim_ctrl.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations/PT_Medieval_Longbow_02_anim_ctrl.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Arrow_03_a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Arrow_03_a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Bow_01_a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Bow_01_a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Mace_01_a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Mace_01_a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Quiver_01_a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Quiver_01_a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Shield_06_a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Shield_06_a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_ShortWaraxe_01_a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_ShortWaraxe_01_a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/SRP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_Weapons_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_Weapons_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/PT_Medieval_Lowpoly_Modular_Armors_Doc.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/PT_Medieval_Lowpoly_Modular_Armors_Doc.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Database.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Database.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BoneSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BoneSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BroadSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BroadSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/EvilLongsword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/EvilLongsword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant 4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Image.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Materials]/Models/Default/Prefabs/Bone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Materials]/Models/Default/Prefabs/Bone.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/lipsh/Unity Projects/Proyecto Semestral 3D/ProjectSaga/Assets/Polytope Studio/Lowpoly Medieval Weapons/Animations.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -157,6 +109,8 @@
       <workItem from="1667689643451" duration="2644000" />
       <workItem from="1667705230577" duration="2223000" />
       <workItem from="1667807420698" duration="956000" />
+      <workItem from="1667815165898" duration="1081000" />
+      <workItem from="1667816303576" duration="955000" />
     </task>
     <servers />
   </component>
