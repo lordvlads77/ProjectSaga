@@ -15,6 +15,6 @@ MonoBehaviour:
   Id: 5
   uiDisplay: {fileID: 21300000, guid: a81f30208472a8845903c77801ca716e, type: 3}
   type: 1
-  description: 
-  atkBonus: 1
+  description: Placeholder
+  atkBonus: 0.5
   defenceBonus: 0
