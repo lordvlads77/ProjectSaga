@@ -9,13 +9,13 @@ public enum ItemType
     Default
 }
 
-/*public enum Attributes
+public enum Attributes
 {
     Agility,
     Intellect,
     Stamina,
     Strength
-}*/
+}
 
 public abstract class ItemObject : ScriptableObject
 {
@@ -24,7 +24,13 @@ public abstract class ItemObject : ScriptableObject
     public ItemType type;
     [TextArea(15,20)]
     public string description;
+    public ItemBuff[] buffs;
 
+    public Item CreateItem()
+    {
+        Item newItem = new Item(this);
+        return newItem;
+    }
 }
 
 [System.Serializable]
@@ -32,15 +38,21 @@ public class Item
 {
     public string Name;
     public int Id;
+    public ItemBuff[] buffs;
 
     public Item(ItemObject item)
     {
         Name = item.name;
         Id = item.Id;
+        buffs = new ItemBuff[item.buffs.Length];
+        for (int i = 0; i < buffs.Length; i++)
+        {
+            buffs[i] = new ItemBuff(item.buffs[i].min, item.buffs[i].max);
+        }
     }
 }
 
-/*public class ItemBuf
+public class ItemBuff
 {
     public Attributes attributes;
     public int value;
@@ -51,10 +63,11 @@ public class Item
     {
         min = _min;
         max = _max;
+        GenerateValue();
     }
 
     public void GenerateValue()
     {
         value = UnityEngine.Random.Range(min, max);
     }
-}*/
+}
