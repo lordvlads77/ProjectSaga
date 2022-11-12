@@ -16,5 +16,8 @@ MonoBehaviour:
   uiDisplay: {fileID: 21300000, guid: 9fe89197bb20ca44384ea519b7a6c5a9, type: 3}
   type: 1
   description: 
-  atkBonus: 25
-  defenceBonus: 0
+  buffs:
+  - attributes: 0
+    value: 0
+    min: 10
+    max: 20
