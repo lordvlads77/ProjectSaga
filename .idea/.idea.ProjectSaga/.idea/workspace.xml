@@ -4,7 +4,6 @@
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DisplayInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DisplayInventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InventoryPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InventoryPrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" afterDir="false" />
     </list>
@@ -104,6 +103,7 @@
       <workItem from="1668018814085" duration="2287000" />
       <workItem from="1668273434550" duration="2973000" />
       <workItem from="1668279715159" duration="2483000" />
+      <workItem from="1668366784249" duration="6583000" />
     </task>
     <servers />
   </component>

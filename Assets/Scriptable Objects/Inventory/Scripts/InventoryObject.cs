@@ -20,8 +20,9 @@ public class InventoryObject : ScriptableObject
 
     public void AddItem(Item _item, int _amount)
     {
-        /*if (_item.buffs.Length > 0)
+        if (_item.buffs.Length > 0)
         {
+            SetEmptySlot(_item, _amount);
             return;
         }
         
@@ -32,11 +33,25 @@ public class InventoryObject : ScriptableObject
                 Container.Items[i].AddAmount(_amount);
                 return;
             }
-        }*/
+        }
+        SetEmptySlot(_item, _amount);
 
     }
+
+    public InventorySlot SetEmptySlot(Item _item, int _amount)
+    {
+        for (int i = 0; i < Container.Items.Length; i++)
+        {
+            if (Container.Items[i].ID <= -1)
+            {
+                Container.Items[i].UpdateSlot(_item.Id, _item, _amount);
+                return Container.Items[i];
+            }
+        }
+        // Set up functionality for when the inventory is full
+        return null;
+    }
     
-    //public InventorySlot
     [ContextMenu("Save")]
     public void Save()
     {
@@ -96,7 +111,14 @@ public class InventorySlot
         ID = -1;
         item = null;
         amount = 0;
-    }public InventorySlot(int _id, Item _item, int _amount)
+    }
+    public InventorySlot(int _id, Item _item, int _amount)
+    {
+        ID = _id;
+        item = _item;
+        amount = _amount;
+    }
+    public void UpdateSlot(int _id, Item _item, int _amount)
     {
         ID = _id;
         item = _item;
