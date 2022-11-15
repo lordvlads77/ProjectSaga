@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class DisplayInventory : MonoBehaviour
 {
+    public MouseItem mouseItem = new MouseItem();
     public GameObject inventoryPrefab;
     public InventoryObject inventory;
     public int X_START;
@@ -78,18 +79,34 @@ public class DisplayInventory : MonoBehaviour
     public void OnEnter(GameObject obj)
     {
         
-    }public void OnExit(GameObject obj)
+    }
+    public void OnExit(GameObject obj)
     {
         
-    }public void OnDragStart(GameObject obj)
+    }
+    public void OnDragStart(GameObject obj)
+    {
+        var mouseObject = new GameObject();
+        var rt = mouseObject.AddComponent<RectTransform>();
+        rt.sizeDelta = new Vector2(50, 50);
+        mouseObject.transform.SetParent(transform.parent);
+        if (itemsDisplayed[obj].ID >= 0)
+        {
+            var img = mouseObject.AddComponent<Image>();
+            img.sprite = inventory.database.GetItem[itemsDisplayed[obj].ID].uiDisplay;
+            img.raycastTarget = false;
+        }
+        mouseItem.obj = mouseObject;
+        mouseItem.item = itemsDisplayed[obj];
+    }
+    public void OnDragEnd(GameObject obj)
     {
         
-    }public void OnDragEnd(GameObject obj)
+    }
+    public void OnDrag(GameObject obj)
     {
-        
-    }public void OnDrag(GameObject obj)
-    {
-        
+        if (mouseItem.obj != null)
+            mouseItem.obj.GetComponent<RectTransform>().position = Input.mousePosition;
     }
     
     
@@ -97,4 +114,12 @@ public class DisplayInventory : MonoBehaviour
     {
         return new Vector3( X_START + (X_SPACE_BETWEEN_ITEM * (i % NUMBER_OF_COLUMN)), Y_START + (-Y_SPACE_BETWEEN_ITEMS * (i/NUMBER_OF_COLUMN)), 0f);
     }
+}
+
+public class MouseItem
+{
+    public GameObject obj;
+    public InventorySlot item;
+    public InventorySlot hoverItem;
+    public GameObject hoverObj;
 }
