@@ -78,11 +78,14 @@ public class DisplayInventory : MonoBehaviour
 
     public void OnEnter(GameObject obj)
     {
-        
+        mouseItem.hoverObj = obj;
+        if (itemsDisplayed.ContainsKey(obj))
+            mouseItem.hoverItem = itemsDisplayed[obj];
     }
     public void OnExit(GameObject obj)
     {
-        
+        mouseItem.hoverObj = null;
+        mouseItem.hoverItem = null;
     }
     public void OnDragStart(GameObject obj)
     {
@@ -101,7 +104,16 @@ public class DisplayInventory : MonoBehaviour
     }
     public void OnDragEnd(GameObject obj)
     {
-        
+        if (mouseItem.hoverObj)
+        {
+            inventory.MoveItem(itemsDisplayed[obj], itemsDisplayed[mouseItem.hoverObj]);
+        }
+        else
+        {
+            
+        }
+        Destroy(mouseItem.obj);
+        mouseItem.item = null;
     }
     public void OnDrag(GameObject obj)
     {
