@@ -7,8 +7,9 @@ namespace ProjectSaga
 {
     public class MobileController : MonoBehaviour
     {
-        [SerializeField] private PlayerActions _playerActions = default;
-        private CharacterController controller;
+        [SerializeField] public PlayerActions _playerActions = default;
+        public InventoryObject inventory;
+        public CharacterController controller;
         // player velocity handles the ability to jump by setting it to 0
         private Vector3 playerVelocity;
         private bool groundedPlayer;
@@ -34,6 +35,17 @@ namespace ProjectSaga
     
         void Update()
         {
+            if (_playerActions.PlayerInventory.SaveInventory.triggered)
+            {
+                inventory.Save();
+                Debug.Log("Saved!");
+            }
+
+            if (_playerActions.PlayerInventory.LoadInventory.triggered)
+            {
+                inventory.Load();
+                Debug.Log("Loaded!");
+            }
             /*this makes sure the player y axis is 0, and also tells the game the player is grounded
              if the axis is less than 0*/
             groundedPlayer = controller.isGrounded;
