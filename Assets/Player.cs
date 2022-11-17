@@ -6,6 +6,8 @@ using ProjectSaga;
 
 public class Player : MonoBehaviour
 {
+    public MouseItem mouseItem = new MouseItem();
+    
     public PlayerActions _playerActions;
     public InventoryObject inventory;
 
