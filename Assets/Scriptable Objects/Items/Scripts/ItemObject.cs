@@ -5,7 +5,8 @@ using UnityEngine;
 public enum ItemType
 {
     Food,
-    Equipment,
+    Weapon,
+    Shield,
     Default
 }
 
@@ -40,6 +41,12 @@ public class Item
     public int Id;
     public ItemBuff[] buffs;
 
+    public Item()
+    {
+        Name = "";
+        Id = -1;
+    }
+
     public Item(ItemObject item)
     {
         Name = item.name;
@@ -48,7 +55,10 @@ public class Item
         for (int i = 0; i < buffs.Length; i++)
         {
             buffs[i] = new ItemBuff(item.buffs[i].min, item.buffs[i].max);
-            buffs[i].attributes = item.buffs[i].attributes;
+            {
+                buffs[i].attributes = item.buffs[i].attributes;
+            }
+
         }
     }
 }
