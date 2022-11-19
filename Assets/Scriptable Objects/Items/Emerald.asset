@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 4
   uiDisplay: {fileID: 21300000, guid: ca245f97dfcacf444a36deedccfadb44, type: 3}
-  type: 2
+  type: 3
   description: Placeholder
+  buffs: []

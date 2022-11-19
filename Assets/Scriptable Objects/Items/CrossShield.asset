@@ -16,5 +16,4 @@ MonoBehaviour:
   uiDisplay: {fileID: 21300000, guid: 232fc004cf1d2d64abb2483d21ecf66d, type: 3}
   type: 1
   description: Placeholder
-  atkBonus: 0
-  defenceBonus: 25
+  buffs: []

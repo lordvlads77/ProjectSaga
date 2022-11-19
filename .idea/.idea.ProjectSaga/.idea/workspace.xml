@@ -3,25 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InventoryPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InventoryPrefab.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BoneSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BoneSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BroadSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/BroadSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/CrossSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/CrossSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/EvilLongsword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/EvilLongsword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/EvilSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/EvilSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/LongSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/LongSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Pike.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Pike.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Rapier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Rapier.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/CrossShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/CrossShield.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Emerald.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Emerald.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/IronShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/IronShield.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/RoundWShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/RoundWShield.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/EquipmentObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/EquipmentObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/ShortSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/ShortSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/StylizedRapier.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/StylizedRapier.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/SunSword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/SunSword.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StaticInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StaticInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UserInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/TowerWoodShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/TowerWoodShield.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +121,9 @@
       <workItem from="1668653694754" duration="2748000" />
       <workItem from="1668821311713" duration="531000" />
       <workItem from="1668821913764" duration="7846000" />
+      <workItem from="1668837143283" duration="97000" />
+      <workItem from="1668837403616" duration="1940000" />
+      <workItem from="1668839977788" duration="510000" />
     </task>
     <servers />
   </component>
