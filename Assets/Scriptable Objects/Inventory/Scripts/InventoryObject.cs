@@ -18,24 +18,44 @@ public class InventoryObject : ScriptableObject
 
     
 
-    public void AddItem(Item _item, int _amount)
+    public bool AddItem(Item _item, int _amount)
     {
-        if (_item.buffs.Length > 0)
+        if (EmptySlotCount <= 0)
+            return false;
+        InventorySlot slot = FindItemOnInventory(_item);
+        if (!database.GetItem[_item.Id].stackable || slot == null)
         {
             SetEmptySlot(_item, _amount);
-            return;
+            return true;
         }
-        
+        slot.AddAmount(_amount);
+        return true;
+    }
+
+    public int EmptySlotCount
+    {
+        get
+        {
+            int counter = 0;
+            for (int i = 0; i < Container.Items.Length; i++)
+            {
+                if (Container.Items[i].item.Id <= -1)
+                    counter++;
+            }
+            return counter;
+        }
+    }
+
+    public InventorySlot FindItemOnInventory(Item _item)
+    {
         for (int i = 0; i < Container.Items.Length; i++)
         {
             if (Container.Items[i].item.Id == _item.Id)
             {
-                Container.Items[i].AddAmount(_amount);
-                return;
+                return Container.Items[i];
             }
         }
-        SetEmptySlot(_item, _amount);
-
+        return null;
     }
 
     public InventorySlot SetEmptySlot(Item _item, int _amount)
@@ -127,7 +147,7 @@ public class Inventory
     {
         for (int i = 0; i < Items.Length; i++)
         {
-            Items[i].UpdateSlot(new Item(), 0);
+            Items[i].RemoveItem();
         }
     }
 }
@@ -154,7 +174,7 @@ public class InventorySlot
     }
     public InventorySlot()
     {
-        item = null;
+        item = new Item();
         amount = 0;
     }
     public InventorySlot(Item _item, int _amount)

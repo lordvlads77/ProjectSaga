@@ -3,15 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DisplayInventory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DisplayInventory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DynamicInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DynamicInterface.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemDatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemDatabaseObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StaticInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StaticInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/CrossShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/CrossShield.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Emerald.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Emerald.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/GoldBar.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/GoldBar.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/GoldCoin.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/GoldCoin.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/HealthPotion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/HealthPotion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/IronShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/IronShield.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/RoundWShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/RoundWShield.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Ruby.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Ruby.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/StaminaPotion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/StaminaPotion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/TowerWoodShield.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/TowerWoodShield.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UserInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +133,7 @@
       <workItem from="1668837403616" duration="1940000" />
       <workItem from="1668839977788" duration="510000" />
       <workItem from="1668895822490" duration="7742000" />
+      <workItem from="1668915036787" duration="3344000" />
     </task>
     <servers />
   </component>

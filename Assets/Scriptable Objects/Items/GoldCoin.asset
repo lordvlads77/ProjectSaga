@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694f65a7c31d3044b8a1ac3d159a437d, type: 3}
   m_Name: GoldCoin
   m_EditorClassIdentifier: 
-  Id: 8
   uiDisplay: {fileID: 21300000, guid: b1d69c56aa1eb0348948f8ad367864bc, type: 3}
-  type: 2
+  stackable: 1
+  type: 3
   description: Placeholder
+  data:
+    Name: 
+    Id: 8
+    buffs: []
