@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using ProjectSaga;
+using UnityEngine.Android;
 
 public class Player : MonoBehaviour
 {
-    public MouseItem mouseItem = new MouseItem();
+    // TODO Remove the line of code 11 in the future if there is no more use for this by the 23-11
+    //public MouseItem mouseItem = new MouseItem();
     
     public PlayerActions _playerActions;
     public InventoryObject inventory;
