@@ -157,6 +157,7 @@ public class Inventory
 public class InventorySlot
 {
     public ItemType[] AllowedItems = new ItemType[0];
+    [System.NonSerialized]
     public UserInterface parent;
     public Item item;
     public int amount;

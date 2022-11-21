@@ -39,7 +39,6 @@ namespace ProjectSaga
             if (_playerActions.PlayerInventory.SaveInventory.triggered)
             {
                 inventory.Save();
-                
                 Debug.Log("Saved!");
             }
 

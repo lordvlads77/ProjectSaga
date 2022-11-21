@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     
     public PlayerActions _playerActions;
     public InventoryObject inventory;
+    public InventoryObject equipment;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -29,6 +30,6 @@ public class Player : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        inventory.Container.Items = new InventorySlot[16];
+        inventory.Container.Clear();
     }
 }
