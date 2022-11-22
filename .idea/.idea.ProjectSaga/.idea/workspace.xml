@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Player Inventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Player Inventory.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/EquipmentObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/EquipmentObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UserInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/Player/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemDatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemDatabaseObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +26,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../Project Saga Builds\ProjectSaga.exe" />
@@ -128,6 +123,7 @@
       <workItem from="1668915036787" duration="3344000" />
       <workItem from="1669000235999" duration="3104000" />
       <workItem from="1669005645297" duration="610000" />
+      <workItem from="1669080144122" duration="3728000" />
     </task>
     <servers />
   </component>
@@ -139,5 +135,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
