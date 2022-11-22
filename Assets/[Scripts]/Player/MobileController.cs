@@ -9,6 +9,7 @@ namespace ProjectSaga
     {
         [SerializeField] public PlayerActions _playerActions = default;
         public InventoryObject inventory;
+        public InventoryObject equipment;
         public CharacterController controller;
         // player velocity handles the ability to jump by setting it to 0
         private Vector3 playerVelocity;

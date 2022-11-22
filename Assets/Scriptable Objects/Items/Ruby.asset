@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694f65a7c31d3044b8a1ac3d159a437d, type: 3}
   m_Name: Ruby
   m_EditorClassIdentifier: 
-  Id: 15
   uiDisplay: {fileID: 21300000, guid: e598419c50371224db7ca2017cd4ab03, type: 3}
-  type: 2
+  stackable: 1
+  type: 3
   description: Placeholder
+  data:
+    Name: 
+    Id: 15
+    buffs: []

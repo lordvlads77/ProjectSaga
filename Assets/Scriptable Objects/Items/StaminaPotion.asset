@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ba1bb662c8f5346828058f078ad1fa, type: 3}
   m_Name: StaminaPotion
   m_EditorClassIdentifier: 
-  Id: 17
   uiDisplay: {fileID: 21300000, guid: 9b15762a5c7d2d14c9617e470a36b50f, type: 3}
+  stackable: 1
   type: 0
   description: Placeholder
-  restoreHealthValue: 2
+  data:
+    Name: 
+    Id: 17
+    buffs: []
