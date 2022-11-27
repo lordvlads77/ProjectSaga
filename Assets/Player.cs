@@ -7,7 +7,7 @@ using UnityEngine.Android;
 
 public class Player : MonoBehaviour
 {
-    // TODO Remove the line of code 11 in the future if there is no more use for this by the 23-11
+    // TODO Remove the line of code 11 in the future if there is no more use for this by the 7-12
     //public MouseItem mouseItem = new MouseItem();
     
     public PlayerActions _playerActions;
