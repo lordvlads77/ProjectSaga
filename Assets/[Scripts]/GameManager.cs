@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace ProjectSaga
 {
@@ -16,6 +18,7 @@ namespace ProjectSaga
         {
             SoundController.Instance.GeneralMusic();
         }
+        
     }    
 }
 
