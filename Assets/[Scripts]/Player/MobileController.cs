@@ -77,6 +77,7 @@ namespace ProjectSaga
             {
                 playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
                 AnimationController.Instance.jumping();
+                Debug.Log("Jumping");
             }
 
             if (!groundedPlayer)

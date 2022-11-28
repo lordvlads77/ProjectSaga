@@ -9,10 +9,10 @@ namespace ProjectSaga
 {
     public class GameManager : MonoBehaviour
     {
-        /*public void PlayGame()
+        public void PlayGame()
         {
             GUI.Instance.playButton();
-        }*/
+        }
 
         public void Start()
         {

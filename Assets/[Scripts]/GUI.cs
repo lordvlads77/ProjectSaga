@@ -9,8 +9,6 @@ namespace ProjectSaga
     public class GUI : MonoBehaviour
     {
         public static GUI Instance { get; private set; }
-        [Header("GUI Screens")]
-        [SerializeField] private GameObject _playScreen = default;
         [SerializeField] private GameObject _pauseScreen = default;
         [SerializeField] private GameObject _saveScreen = default;
         [SerializeField] private GameObject _deathScreen = default;
@@ -26,24 +24,20 @@ namespace ProjectSaga
                 Destroy(gameObject);
             }
         }
-
-        private void Start()
-        {
-            Time.timeScale = 0;
-        }
+        
 
         public void playButton()
         {
-            _playScreen.SetActive(false);
-            _ingamePscreen.SetActive(true);
+            SceneManager.LoadScene(1);
+            //_ingamePscreen.SetActive(true);
             Time.timeScale = 1;
         }
 
         public void pause()
         {
-            _ingamePscreen.SetActive(false);
+            /*_ingamePscreen.SetActive(false);
             _pauseScreen.SetActive(true);
-            Time.timeScale = 0;
+            Time.timeScale = 0;*/
         }
 
         public void deathScreen()
@@ -55,7 +49,6 @@ namespace ProjectSaga
         {
             _pauseScreen.SetActive(false);
             _ingamePscreen.SetActive(true);
-            Time.timeScale = 1;
         }
 
         public void SaveGame()
@@ -79,7 +72,7 @@ namespace ProjectSaga
 
         public void secondwind()
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }   
 }
