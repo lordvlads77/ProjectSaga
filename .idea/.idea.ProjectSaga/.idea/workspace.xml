@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations/PT_Medieval_Bow_01_anim.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations/PT_Medieval_Bow_01_anim.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations/PT_Medieval_Bow_01_anim_ctrl.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations/PT_Medieval_Bow_01_anim_ctrl.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations/PT_Medieval_Bow_01_anim_ctrl.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Animations/PT_Medieval_Bow_01_anim_ctrl.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_Weapons_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_Weapons_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_Weapons_Material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_Weapons_Material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_mat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Materials/PT_Medieval_mat.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Arrow_03_a.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Arrow_03_a.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Bow_01_a.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Weapons/Sources/Meshes/PT_Medieval_Bow_01_a.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Animations]/Humanoid.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Animations]/Humanoid.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +124,7 @@
       <workItem from="1669005645297" duration="610000" />
       <workItem from="1669080144122" duration="3728000" />
       <workItem from="1669578243305" duration="4003000" />
-      <workItem from="1669798109132" duration="8620000" />
+      <workItem from="1669798109132" duration="8710000" />
     </task>
     <servers />
   </component>
