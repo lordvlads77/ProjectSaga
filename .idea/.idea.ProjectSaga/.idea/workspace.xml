@@ -5,12 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DynamicInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DynamicInterface.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Inventory/Scripts/InventoryObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemDatabaseObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects/Items/Scripts/ItemDatabaseObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StaticInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StaticInterface.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UserInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +149,7 @@
       <workItem from="1674676628650" duration="56000" />
       <workItem from="1674676760001" duration="40000" />
       <workItem from="1674676849362" duration="1260000" />
+      <workItem from="1674773448584" duration="3440000" />
     </task>
     <servers />
   </component>
