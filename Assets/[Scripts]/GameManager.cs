@@ -27,12 +27,12 @@ namespace ProjectSaga
 
         public void PlayGame()
         {
-            GUI.Instance.playButton();
+            //GUI.Instance.playButton();
         }
 
         public void Start()
         {
-            SoundController.Instance.GeneralMusic();
+            //SoundController.Instance.GeneralMusic();
         }
         
     }    
