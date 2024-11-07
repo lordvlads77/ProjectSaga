@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSaga/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/Color Texture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/Color Texture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/ColorTexture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/ColorTexture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/HeartTexture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/HeartTexture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/heart_texture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Material/heart_texture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Mesh/Prop_House.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Mesh/Prop_House.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Mesh/Prop_House_TopDeco.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Mesh/Prop_House_TopDeco.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Prefabs/Prop_House.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Prefabs/Prop_House.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Prefabs/Prop_House_TopDeco.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowpolySimpleHouse/Assets/Prefabs/Prop_House_TopDeco.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Demo/DemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKnights/Demo/DemoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Materials/PolyKnights_Mat_Variation_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKnights/Materials/PolyKnights_Mat_Variation_03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKnights/Materials/PolyKnights_Mat_Variation_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKnights/Materials/PolyKnights_Mat_Variation_04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/[Scripts]/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/[Scripts]/GameManager.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1f6df020-d866-4b44-b328-a667feda12fc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +162,7 @@
       <workItem from="1728702092039" duration="148000" />
       <workItem from="1728704799387" duration="83000" />
       <workItem from="1728704921737" duration="2331000" />
-      <workItem from="1730681541905" duration="1160000" />
+      <workItem from="1730681541905" duration="1755000" />
     </task>
     <servers />
   </component>
